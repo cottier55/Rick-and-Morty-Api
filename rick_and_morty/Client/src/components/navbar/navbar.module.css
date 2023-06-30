@@ -1,12 +1,88 @@
+@font-face {
+  font-family: 'Rick and Morty';
+  src: url('./../../assets/Ricky-and-Morty/get_schwifty.ttf');
+}
+
 .navContainer {
   display: flex;
-  margin-bottom: 25px;
+  margin-bottom: 30px;
   flex-direction: row;
   justify-content: space-between;
   width: 90%;
-  border-top: solid #7f00b2 2px;
-  border-bottom: solid #7f00b2 2px;
+  border-top: solid rgba(127,0,178,1) 2px;
+  border-bottom: solid rgba(127,0,178,1) 2px;
   padding: 5px 0px;
+}
+
+.buttonsContainer {
+  height: 40px;
+  width: 25%;
+}
+
+.aboutButton {
+  height: 100%;
+  width: 33%;
+  background-color: rgba(127,0,178,1);
+  border: none;
+  font-size: 20px;
+  font-family: 'Rick and Morty', sans-serifS;
+}
+
+.aboutLinkButton {
+  color: rgba(1,196,231,1);
+  text-decoration: none;
+  text-shadow: 1px 1px 1px #000, -1px -1px 1px #000, 1px -1px 1px #000, -1px 1px 1px #000;
+  
+}
+
+.aboutButton:hover {
+  background-color: rgba(46,248,160,1);
+  border-radius: 7px;
+  transition: 0.5s;
+}
+
+.homeButton {
+  height: 100%;
+  width: 33%;
+  background-color:rgba(127,0,178,1) ;
+  border: none;
+  font-size: 20px;
+  border-left: solid 1px white;
+  font-family:'Rick and Morty', sans-serifS;
+}
+
+.homeLinkButton {
+  color: rgba(1,196,231,1);
+  text-decoration: none;
+  text-shadow: 1px 1px 1px #000, -1px -1px 1px #000, 1px -1px 1px #000, -1px 1px 1px #000;
+}
+
+.homeButton:hover {
+  background-color: rgba(46,248,160,1);
+  border-radius: 7px;
+  transition: 0.5s;
+}
+
+.favoritesButton {
+  height: 100%;
+  width: 33%;
+  background-color: rgba(127,0,178,1);
+  border: none;
+  font-size: 20px;
+  border-left: solid 1px white;
+  font-family: 'Rick and Morty', sans-serif;
+}
+
+.favoritesLinkButton {
+  color: rgba(1,196,231,1);
+  text-decoration: none;
+  text-shadow: 1px 1px 1px #000, -1px -1px 1px #000, 1px -1px 1px #000, -1px 1px 1px #000;
+}
+
+.favoritesButton:hover {
+  background-color: rgba(46,248,160,1);
+  border-radius: 7px;
+  transition: 0.5s;
 }
 
 .random {

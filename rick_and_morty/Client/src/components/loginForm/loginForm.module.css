@@ -1,19 +1,30 @@
+@font-face {
+  font-family: 'Rick and Morty';
+  src: url('./../../assets/Ricky-and-Morty/get_schwifty.ttf');
+}
+
 .formContainer {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   border: 2px solid #222233;
+  border-radius: 20px;
   padding: 30px;
   color: rgba(127,0,178,1);
+  font-family: 'Rick and Morty', sans-serif;
+  text-shadow: 1px 1px 1px #000, -1px -1px 1px #000, 1px -1px 1px #000, -1px 1px 1px #000;
+  font-size: 22px;
   background: rgb(1,196,231);
   background: linear-gradient(90deg, rgba(1, 197, 231, 0.521) 0%, rgba(46, 248, 160, 0.514) 50%, rgba(128, 0, 178, 0.514) 100%); 
   
 }
 
+
 .formTitle {
-  margin-bottom: 10px;
-  box-shadow: 0 0 5px #222233;
-  padding: 10px;
+  font-family: 'Rick and Morty', sans-serif;
+  font-size: 15px;
+  color: rgb(1,196,231);
+   
 }
 
 .credentials {
@@ -25,19 +36,16 @@
 }
 
 .credentials input {
-  background: none;
-  border: none;
-  border-bottom: solid rgb(1,196,231) 2px;
-  color: rgb(1,196,231);
+  border-radius: 20px;
+  border: solid #222233 1px;
   margin: 10px 0;
+  
 }
 .credentials input:focus {
   outline: none;
 }
 
-.credentials span {
-  color: red;
-}
+
 
 .submitBtn {
   position: relative;

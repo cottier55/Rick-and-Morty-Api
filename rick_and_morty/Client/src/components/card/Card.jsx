@@ -24,7 +24,7 @@ function Card(props) {
         setFav(true);
       }
     });
-  }, [favorites]);
+  }, [favorites, id]);
 
   function navigateHandler() {
     navigate(`/detail/${character.id}`);

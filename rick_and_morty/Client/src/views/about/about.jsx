@@ -16,8 +16,6 @@ const About = () => {
         
         <div className={styles.aboutContainer}>
 
-            <h1>- About -</h1>
-
             <div className={styles.containerFlex}>
             
 
@@ -28,7 +26,7 @@ const About = () => {
                 <div className={styles.division}></div>
                 
                 <div className={styles.about}>
-                    <h2>Me llamo Solange Cottier</h2> 
+                    <h2>I am Solange Cottier</h2> 
                     
                     <div className={styles.contact}>
                         <h3>You can find me at:</h3>

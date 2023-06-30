@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Rick and Morty';
+  src: url('./../../assets/Ricky-and-Morty/get_schwifty.ttf');
+}
+
 .detail-container {
   display: flex;
   justify-content: space-around;
@@ -8,6 +13,7 @@
   padding: 15px;
   border-radius: 5px;
   color: black;
+  font-family: 'Rick and Morty', sans-serif;
   background: linear-gradient(90deg, rgba(1,196,231,1) 0%, rgba(46,248,160,1) 50%, rgba(127,0,178,1) 100%);
   opacity: 0.6;
 }
@@ -28,3 +34,4 @@
 .details p {
   margin-left: 30px;
 }
+

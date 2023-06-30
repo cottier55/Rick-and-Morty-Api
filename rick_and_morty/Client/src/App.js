@@ -6,7 +6,7 @@ import {removeFavorite} from "./redux/actions";
 import Detail from "./views/detail/detail";
 import About from "./views/about/about";
 import Cards from "./components/cards/Cards";
-import logoRM from "./assets/logorm-removebg-preview.png";
+import logoRM from "./imag/logorm-removebg-preview.png";
 import Navbar from "./components/navbar/Navbar";
 
 import ErrorPage from "./views/error/errorPage.jsx";
@@ -26,6 +26,7 @@ function App() {
   const EMAIL = "cottiersolchu55@gmail.com";
   const PASSWORD = "15S15o15l";
 
+  
   function login(userData) {
     if (userData.password === PASSWORD && userData.email === EMAIL) {
       setAccess(true);
@@ -85,7 +86,6 @@ function App() {
   return (
     <div className="App">
       <img className="title" src={logoRM} alt="logo" />
-
       {location.pathname !== "/" && (
         <Navbar onSearch={searchHandler} random={randomHandler} />
       )}
