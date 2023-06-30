@@ -1,0 +1,30 @@
+.detail-container {
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+  border: solid 1px #39ff14;
+  margin: 0 auto;
+  max-height: 400px;
+  padding: 15px;
+  border-radius: 5px;
+  color: black;
+  background: linear-gradient(90deg, rgba(1,196,231,1) 0%, rgba(46,248,160,1) 50%, rgba(127,0,178,1) 100%);
+  opacity: 0.6;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.details div {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.details p {
+  margin-left: 30px;
+}
